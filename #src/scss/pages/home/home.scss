@@ -1,0 +1,161 @@
+.home.hide-right {
+    transform: translateX(100%);
+}
+
+.home {
+    transition: all .7s ease;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/main-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    // transform: scale(0);
+    animation: homeEnterAmin 1s ease;
+    // transform: scale(1);
+
+    @keyframes homeEnterAmin {
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    &__item {
+        position: absolute;
+    }
+
+    &__item.home__item-tr {
+        padding: 10px 50px 10px 10px;
+        background-image: url('../img/button/btn-main-tr.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 65px;
+        left: 50px;
+        width: 145px;
+
+        span {
+            text-align: left;
+            text-transform: uppercase;
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            &:nth-child(2) {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__item.home__item-balance {
+        bottom: 65px;
+        left: 50px;
+
+        .home__item-balance_btn {
+            background-image: url('../img/button/btn-main-balance.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            padding: 7px 15px;
+            color: #000;
+            font-weight: 700;   
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .home__item-balance_value {
+            padding-left: 17px;
+            position: relative;
+
+            &:after {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 100%;
+                content: '';
+                border: 1px solid #fff;
+                width: 6px;
+            }
+            span {
+                display: block;
+                &:nth-child(2) {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 30px;
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+
+            &_sf {
+                font-size: 15px;
+                line-height: 15px;
+                display: inline;
+            }
+        }
+    }
+
+
+    &__item.home__item-loc {
+        padding: 10px 50px 10px 10px;
+        width: 145px;
+        color: var(--aqua);
+        background-image: url('../img/button/btn-main-loc.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        text-transform: uppercase;
+        top: 65px;
+        right: 50px;
+        span {
+            display: block;
+            text-align: left;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+            &:nth-child(2) {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__item.home__item-info {
+        color: var(--aqua);
+        background-image: url('../img/button/btn-home-info.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        bottom: 65px;
+        right: 50px;
+        width: 210px;
+        height: 191px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 25px;
+
+        .home__item-info_head {
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .home__item-info_li {
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            text-align: left;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<div class="pricing">
+    <div class="pricing__in">
+        <div class="pricing__top">
+            <div class="pricing__top_back">
+                @@include('../../components/backBtn.html', {
+                    "text": "вернутся"
+                })
+            </div>
+            
+        </div>
+        <h2 class="pricing__head md-title md-title-center">Смена тарифа</h2>
+        <div class="pricing__body">
+            <div class="pricingItem">
+                @@include('./components/pricingItemHour.html')
+            </div>
+            <div class="pricingItem">
+                @@include('./components/pricingItemTop.html')
+            </div>
+            <div class="pricingItem">
+                @@include('./components/pricingItemStart.html')
+            </div>
+        </div>
+    </div>
+</div>

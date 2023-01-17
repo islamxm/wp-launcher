@@ -1,0 +1,37 @@
+.pricingItem {
+    width: 253px;
+    height: 364px;
+    @include def-anim;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    &__body {
+
+        &_item {
+            text-transform: uppercase;
+            margin-bottom: 15px;
+
+            &:last-child  {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__action {
+
+        &_btn {
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-image: url('../img/button/btn-default-border.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+        }
+    }
+}

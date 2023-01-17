@@ -1,0 +1,28 @@
+//GLOBAL
+@import './global/global.scss';
+@import './global/vars.scss';
+
+
+//COMPONENTS
+@import './components/headLine.scss';
+@import './components/button.scss';
+@import './components/backBtn.scss';
+@import './components/doubleBtn.scss';
+@import './components/lightBtn.scss';
+
+//components(home)
+@import './pages/home/components/homeCenter.scss';
+//components(pricing)
+@import './pages/pricing/components/pricingItem.scss';
+@import './pages/pricing/components/pricingItemHour.scss';
+@import './pages/pricing/components/pricingItemTop.scss';
+@import './pages/pricing/components/pricingItemStart.scss';
+//components(location)
+@import './pages/location/components/locationItem.scss';
+
+//PAGES
+@import './pages/home/home.scss';
+@import './pages/pricing/pricing.scss';
+@import './pages/preload/preload.scss';
+@import './pages/location/location.scss';
+

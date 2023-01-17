@@ -1,0 +1,11 @@
+:root {
+
+    --aqua: #57D6FF;
+    --dark_blue_bg: #151C21;
+    
+}
+
+
+@mixin def-anim {
+    transition: all .3s ease;
+}

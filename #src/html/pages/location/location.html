@@ -1,0 +1,29 @@
+<div class="location">
+    <div class="location__in">
+        <h2 class="location__head md-title md-title-center">
+            Смена локации
+        </h2>
+        <div class="location__body">
+            @@include('./components/locationItem.html', {
+                "active": "active"
+            })
+            @@include('./components/locationItem.html', {
+                "active": ""
+            })
+            @@include('./components/locationItem.html', {
+                "active": ""
+            })
+        </div>
+        <div class="location__action">
+            @@include('../../components/doubleBtn.html', {
+                "mainText": "Выбрать",
+                "exText": "вернутся",
+                "mainModClass": "location__action_select",
+                "exModClass": "location__action_back"
+            })
+            <!-- @@include('../../components/lightBtn.html', {
+                "text": "Купить за 100 рублей"
+            }) -->
+        </div>
+    </div>
+</div>

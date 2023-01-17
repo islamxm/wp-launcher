@@ -1,0 +1,50 @@
+.backBtn {
+    width: 150px;
+    height: 25px;
+    text-align: right;
+    padding-right: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: url('../img/button/btn-back-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+    &:hover {
+
+        &:after {
+            transform: translateX(0);
+        }
+    }
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 18px;
+        height: 14px;
+        background-image: url('../img/button/btn-arrow-white.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transform: translateX(10px);
+        z-index: 1;
+        @include def-anim;
+    }
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 18px;
+        height: 14px;
+        content: '';
+        background-image: url('../img/button/btn-arrow-tr.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}

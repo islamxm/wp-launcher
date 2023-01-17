@@ -1,0 +1,63 @@
+.headLine {
+    height: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #151B20;
+
+    &__in {
+        display: flex;  
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 18px;
+        height: 100%;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        &_img {
+            margin-right: 15px;
+            width: 12px;height: 12px;
+            object-fit: contain;
+            display: flex;
+        }
+
+        &_label {
+            text-transform: uppercase;
+        }
+    }
+
+    &__ver {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+        margin: 0 -4px 0 -4px;
+        
+        &_item {
+            width: 11px;
+            height: 11px;
+            border-radius: 100%;
+            margin: 0 4px;
+            background-color: #D9D9D9;
+            cursor: pointer;
+            transition: all .3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &_item.headLine__action_item-danger {
+            background-color: #FF6157;
+        }
+    }
+}

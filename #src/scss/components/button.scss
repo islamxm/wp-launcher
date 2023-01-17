@@ -1,0 +1,14 @@
+.button {
+    @include def-anim;
+    cursor: pointer;
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    &:disabled {
+        opacity: .5;
+        touch-action: none;
+        pointer-events: none;
+    }
+}
