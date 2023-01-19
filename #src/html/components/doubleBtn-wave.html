@@ -1,0 +1,11 @@
+<div class="doubleBtn">
+    <button class=" doubleBtn__item doubleBtn__item-main @@mainModClass">@@mainText</button>
+    <!-- <button class=" doubleBtn__item doubleBtn__item-ex @@exModClass">@@exText</button> -->
+    <div class="doubleBtn__item doubleBtn__item-ex">
+        @@include('./waveBtn.html', {
+            "text": "@@exText",
+            "modClass": "@@exModClass"
+        })
+    </div>
+    
+</div>

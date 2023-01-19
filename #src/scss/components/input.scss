@@ -1,0 +1,35 @@
+.input {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #fff;
+
+    &__label {
+        width: 135px;
+        height: 25px;
+        background-image: url('../img/input-label-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+
+    &__el {
+        width: 100%;
+        input {
+            padding: 5px 22px;
+            display: block;
+            width: 100%;
+            font-weight: 300;
+            font-size: 7.80576px;
+            line-height: 9px;
+            background-color: unset;
+            border: none;
+            color: #fff;
+        }
+    }
+}

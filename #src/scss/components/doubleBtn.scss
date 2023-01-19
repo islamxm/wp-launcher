@@ -1,9 +1,59 @@
 .doubleBtn {
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 219px;
     height: 76px;
-
+    position: relative;
+    
     &__item {
-        
+        cursor: pointer;
     }   
+    &__item.doubleBtn__item-main {
+        background-image: url('../img/button/btn-double-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 13px;
+        // padding-left: 63px;
+        display: flex;
+        justify-content: center;
+        padding-right: 70px;
+        text-transform: uppercase;
+        color: var(--dark_blue_bg);
+        position: relative;
+        &:after {
+            position: absolute;
+            bottom: 12px;
+            right: 22px;
+            width: 15px;
+            height: 15px;
+            content: '';
+            background-image: url('../img/button/btn-location-double-icon.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+
+    // &__item.doubleBtn__item-ex {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     width: 150px;
+    //     height: 36px;
+    //     border: 1px solid green;
+    // }
+    
+
+    &__item.doubleBtn__item-ex {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    
 }

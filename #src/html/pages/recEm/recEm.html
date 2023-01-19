@@ -1,0 +1,20 @@
+<div class="recEm">
+    <div class="recEm__in">
+        <h2 class="recEm__head md-title">воставновление пароля</h2>
+        <div class="recEm__body">
+            <div class="recEm__body_item">
+                @@include('../../components/input.html', {
+                    "type": "email",
+                    "placeholder": 'E- MAIL',
+                    "label": "Введите вашу почту"
+                })
+            </div>
+        </div>
+        <div class="recEm__action">
+            @@include('../../components/doubleBtn.html', {
+                "mainText": "востановить",
+                "exText": "вернутся"
+            })
+        </div>
+    </div>
+</div>

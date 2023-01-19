@@ -1,0 +1,160 @@
+.settings {
+    transform: translateY(-100%);
+    transition: all .7s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(271.52deg, rgba(255, 255, 255, 0.02) -2.12%, rgba(255, 255, 255, 0) 97.41%), #151C21;
+    z-index: -1;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background-image: url('../img/rep-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    &__in {
+        padding: 50px 20px;
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    &__head {
+
+    }
+
+    &__body {
+        background-image: url('../img/settings-body-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center 30px;
+        background-size: 332px 173px;
+        width: 332px;
+        
+        &_main {    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_item {
+                margin-bottom: 20px;
+                
+
+                &_head {
+                    text-align: center;
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                &_tabs {
+                    display: flex;
+                    width: 160px;
+                    border-radius: 2px;
+                    overflow: hidden;
+
+                    &_item {
+                        height: 24px;
+                        width: 50%;
+                        color: #fff;
+                        background-color: rgba(#57D6FF, .1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        cursor: pointer;
+                        border: 1px solid transparent;
+                        @include def-anim;
+
+                        &:hover {
+                            border-color: var(--aqua);
+                        }
+
+                        &:first-child {
+                            border-radius: 2px 0 0 2px;
+                        }
+                        &:last-child {
+                            border-radius: 0 2px 2px 0;
+                        }
+                    }
+
+                    &_item.active {
+                        color: var(--dark_blue_bg);
+                        background-color: var(--aqua);
+                    }
+                }
+
+                &_tabs-lg {
+                    width: 200px;
+                    
+                    &_item {
+                        height: 24px;
+                        width: 25%;
+                        color: #fff;
+                        background-color: rgba(#57D6FF, .1);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                        border: 1px solid transparent;
+                        @include def-anim;
+
+                        &:hover {
+                            border-color: var(--aqua);
+                        }
+
+                        &:first-child {
+                            border-radius: 2px 0 0 2px;
+                        }
+                        &:last-child {
+                            border-radius: 0 2px 2px 0;
+                        }
+                    }
+                    
+
+                    &_item.active {
+                        color: var(--dark_blue_bg);
+                        background-color: var(--aqua);
+                    }
+                }
+            }
+
+        }
+
+        &_ex {
+
+        }
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+        margin-left: -17.5px;
+        margin-right: -17.5px;
+
+        &_item {
+            margin: 0 35px;
+        }
+    }
+}
+
+.settings.active {
+    transform: translateY(0);
+    z-index: 10;
+}

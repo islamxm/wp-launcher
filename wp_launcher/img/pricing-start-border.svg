@@ -1,0 +1,24 @@
+<svg width="256" height="366" viewBox="0 0 256 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 355H5V365H2V355Z" fill="white"/>
+<path d="M12 362V365H2V362L12 362Z" fill="white"/>
+<path d="M255 356H252V366H255V356Z" fill="white"/>
+<path d="M245 363V366H255V363L245 363Z" fill="white"/>
+<path d="M255 11L252 11L252 1L255 1L255 11Z" fill="white"/>
+<path d="M245 4L245 1L255 1L255 4L245 4Z" fill="white"/>
+<path d="M12 1L12 4L2 4L2 1L12 1Z" fill="white"/>
+<path d="M5 11L2 11L2 1L5 1L5 11Z" fill="white"/>
+<path d="M11.5 3.5L16 6H78.5L89.5 1H140.5L145.5 6H221.5L226.5 1H245.5" stroke="white" stroke-width="0.2"/>
+<path d="M11 365H25L36 360H140.5L145.5 365L245 365.5" stroke="white" stroke-width="0.2"/>
+<path d="M222.5 5L221.5 6L145.5 6L144.5 5L222.5 5Z" fill="white"/>
+<path d="M33.9999 361L36 360L140.5 360L141.5 361L33.9999 361Z" fill="white"/>
+<path d="M252.5 15L255 17" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 23L255 25" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 17L255 19" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 25L255 27" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 19L255 21" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 27L255 29" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 21L255 23" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 29L255 31" stroke="white" stroke-width="0.2"/>
+<path d="M252.5 31L255 33V77.5L252.5 80.5V211L255 212.5V356.5" stroke="white" stroke-width="0.2"/>
+<path d="M2 11L5 14V84.5L1 88.5V263.5L5 267.5V355" stroke="white" stroke-width="0.2"/>
+</svg>

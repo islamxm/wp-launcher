@@ -1,0 +1,29 @@
+<div class="rec">
+    <div class="rec__in">
+        <h2 class="rec__head md-title">
+            воставновление пароля
+        </h2>
+        <div class="rec__body">
+            <div class="rec__body_item">
+                @@include('../../components/input.html', {
+                    "type": "password",
+                    "placeholder": 'PASSWORD',
+                    "label": "Введите ваш пароль"
+                })
+            </div>
+            <div class="rec__body_item">
+                @@include('../../components/input.html', {
+                    "type": "password",
+                    "placeholder": 'PASSWORD',
+                    "label": "повторите ваш пароль"
+                })
+            </div>
+        </div>
+        <div class="rec__action">
+            @@include('../../components/doubleBtn.html', {
+                "mainText": "востановить",
+                "exText": "вернутся"
+            })
+        </div>
+    </div>
+</div>

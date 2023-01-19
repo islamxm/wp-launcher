@@ -4,13 +4,22 @@
     outline: none;
     box-sizing: border-box;
 }
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
 a {
     text-decoration: none;
 }
 
 li {
     list-style: none;
+}
+
+input {
+    font: inherit;
 }
 
 
@@ -38,7 +47,7 @@ body {
     font-family: 'Play', sans-serif;
     color: #fff;
     font-weight: 400;
-    background-color: darkgrey;
+    // background-color: darkgrey;
     overflow-x: hidden;
     display: flex;
     align-items: center;
@@ -46,7 +55,7 @@ body {
 
 .wrapper {
     width: 820px;
-    border: 1px solid red;
+    // border: 1px solid red;
     margin: 0 auto;
     background-color: var(--dark_blue_bg);
     position: relative;

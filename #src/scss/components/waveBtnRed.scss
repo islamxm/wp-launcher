@@ -1,0 +1,48 @@
+.waveBtnRed {
+    width: 195px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 17px;
+    overflow: hidden;
+    @include def-anim;
+    
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200%;
+        height: 100%;
+        content: '';
+        background-image: url('../img/button/btn-wave-red.svg');
+        background-repeat: repeat-x;
+        background-position: center;
+        background-size: contain;
+        opacity: .5;
+        animation: btn-linear 1.5s linear infinite;
+        animation-play-state: paused;
+        
+    }
+
+    &:hover {
+        filter: drop-shadow(0px 0px 10px var(--red));
+        &:after {
+            animation-play-state: running;
+        }
+    }
+
+    @keyframes btn-linear {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+    }
+}

@@ -1,0 +1,55 @@
+<div class="settings">
+    <div class="settings__in">
+        <h2 class="settings__head md-title md-title-center">
+            Настройка облачного пк
+        </h2>
+        <div class="settings__body">
+            <div class="settings__body_main">
+                <div class="settings__body_main_item">
+                    <div class="settings__body_main_item_head">Вертикальная синхранизация</div>
+                    <div class="settings__body_main_item_tabs">
+                        <div class="settings__body_main_item_tabs_item active">влючено</div>
+                        <div class="settings__body_main_item_tabs_item">выключено</div>
+                    </div>
+                </div>
+                <div class="settings__body_main_item">
+                    <div class="settings__body_main_item_head">аппаратное декодирование</div>
+                    <div class="settings__body_main_item_tabs">
+                        <div class="settings__body_main_item_tabs_item active">влючено</div>
+                        <div class="settings__body_main_item_tabs_item">выключено</div>
+                    </div>
+                </div>
+                <div class="settings__body_main_item">
+                    <div class="settings__body_main_item_head">Битрейт</div>
+                    <div class="settings__body_main_item_tabs-lg settings__body_main_item_tabs">
+                        <div class="settings__body_main_item_tabs-lg_item active">5 mbit</div>
+                        <div class="settings__body_main_item_tabs-lg_item">10 mbit</div>
+                        <div class="settings__body_main_item_tabs-lg_item">20 mbit</div>
+                        <div class="settings__body_main_item_tabs-lg_item">30 mbit</div>
+                    </div>
+                </div>
+                <div class="settings__body_main_item">
+                    <div class="settings__body_main_item_head">Смена языка</div>
+                    <div class="settings__body_main_item_tabs">
+                        <div class="settings__body_main_item_tabs_item active">РУССКИЙ</div>
+                        <div class="settings__body_main_item_tabs_item">АНГЛИЙСКИЙ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="settings__body_ex"></div>
+        </div>
+        <div class="settings__action">
+            <div class="settings__action_item">
+                @@include('../../components/backBtn.html', {
+                    "text": "вернутся",
+                    "modClass": "settings__close"
+                })
+            </div>
+            <div class="settings__action_item">
+                @@include('../../components/waveBtnRed.html', {
+                    "text": "Сброс облачного пк"
+                })
+            </div>
+        </div>
+    </div>
+</div>

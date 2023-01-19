@@ -1,0 +1,96 @@
+.waveHead {
+    width: 422px;   
+    height: 68px;
+    // border: 1px solid red;
+    text-transform: uppercase;
+    position: relative;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('../img/button/btn-confirm-border.svg');
+    // overflow: hidden;
+    &:before {
+        position: absolute;
+        right: -4px;
+        top: 18px;
+        width: 10px;
+        height: 10px;
+        content: '';
+        background-image: url('../img/confirm-icon.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    // &:hover {
+    //     .waveHead__bg {
+    //         &:after {
+    //             animation-play-state: running;
+    //         }
+    //     }
+    // }
+   
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;   
+        overflow: hidden;
+
+        &:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            //width: 200%;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background-image: url('../img/button/btn-wave-big-bg.svg');
+            // animation: btn-linear 1.5s linear infinite;
+            // animation-play-state: paused;
+            background-repeat: repeat-x;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+
+    &__main {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size: 15.7447px;
+        line-height: 18px;
+        color: var(--aqua);
+        filter: drop-shadow(0px 0px 10px var(--aqua));
+    }
+
+    &__ex {
+        text-shadow: #FF6157 1px 0 10px;
+        color: #FF6157;
+        position: relative;
+        z-index: 2;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-right: 67px;
+        transform: translateY(30%);
+        font-size: 12.5957px;
+        line-height: 15px;
+    }
+    @keyframes btn-linear {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+    }
+
+}

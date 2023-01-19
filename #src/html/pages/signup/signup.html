@@ -1,0 +1,46 @@
+<div class="signup">
+    <div class="signup__in">
+        <div class="signup__head">
+            @@include('../../components/authHead.html', {
+                "ex": "вход",
+                "main": "регИстрация"
+            })
+        </div>
+        <div class="signup__body">
+            <div class="signup__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите вашу почту",
+                    "type": "text",
+                    "placeholder": "E- MAIL"
+                })
+            </div>
+            <div class="signup__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите ваш пароль",
+                    "type": "password",
+                    "placeholder": "PASSWORD"
+                })
+            </div>
+            <div class="signup__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите вашу почту",
+                    "type": "text",
+                    "placeholder": "E- MAIL"
+                })
+            </div>
+            <div class="signup__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите ваш пароль",
+                    "type": "password",
+                    "placeholder": "PASSWORD"
+                })
+            </div>
+        </div>
+        <div class="signup__action">
+            @@include('../../components/doubleBtn-wave.html', {
+                "mainText": "Зарегестрироваться",
+                "exText": "востановить пароль"
+            })
+        </div>
+    </div>
+</div>

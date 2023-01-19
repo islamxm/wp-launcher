@@ -1,13 +1,32 @@
 .pricingItemTop {
-    border: 1px solid var(--aqua);
     width: 100%;
     height: 100%;
+    background-image: url('../img/pricing-top-border.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background-image: url('../img/pricing-top-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
     &__in {
         padding: 15px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
+        position: relative;
+        z-index: 2;
     }
     &__head {
         

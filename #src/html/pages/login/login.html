@@ -1,0 +1,32 @@
+<div class="login">
+    <div class="login__in">
+        <div class="login__head">
+            @@include('../../components/authHead.html', {
+                "ex": "регистрация",
+                "main": "вход"
+            })
+        </div>
+        <div class="login__body">
+            <div class="login__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите вашу почту",
+                    "type": "text",
+                    "placeholder": "E- MAIL"
+                })
+            </div>
+            <div class="login__body_item">
+                @@include('../../components/input.html', {
+                    "label": "Введите ваш пароль",
+                    "type": "password",
+                    "placeholder": "PASSWORD"
+                })
+            </div>
+        </div>
+        <div class="login__action">
+            @@include('../../components/doubleBtn-wave.html', {
+                "mainText": "войти",
+                "exText": "востановить пароль"
+            })
+        </div>
+    </div>
+</div>

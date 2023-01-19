@@ -1,0 +1,25 @@
+<div class="rep">
+    <div class="rep__in">
+        <h2 class="rep__head md-title md-title-center">
+            Пополнение минут
+        </h2>
+        <div class="rep__body">
+            @@include('../../components/standartInput.html', {
+                "placeholder": "ВВЕДИТЕ КОЛИЧЕСТВО МИНУТ"
+            })
+        </div>
+        <div class="rep__action">
+            <div class="rep__action_item">
+                @@include('../../components/lightBtn.html', {
+                    "text": "Купить за 100 рублей"
+                })
+            </div>
+            <div class="rep__action_item">
+                @@include('../../components/backBtn.html', {
+                    "text": "вернутся",
+                    "modClass": "rep__close"
+                })
+            </div>
+        </div>
+    </div>
+</div>

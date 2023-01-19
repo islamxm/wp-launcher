@@ -1,0 +1,51 @@
+.waveBtn {
+    width: 140px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 20px var(--aqua));
+
+    &__text {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200%;
+        height: 100%;
+        content: '';
+        background-image: url('../img/button/btn-wave-min-bg.svg');
+        background-repeat: repeat-x;
+        background-position: center;
+        background-size: contain;
+        opacity: .5;
+        animation: btn-linear 1.5s linear infinite;
+        animation-play-state: paused;
+
+        
+    }
+
+    &:hover {
+        &:after {
+            animation-play-state: running;
+        }
+    }
+
+    @keyframes btn-linear {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+    }
+}

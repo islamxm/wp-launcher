@@ -1,0 +1,45 @@
+.login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all .7s ease;
+    transform: translateY(-100%);
+    background-color: var(--dark_blue_bg);
+    &__in {
+        padding: 100px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &_item {
+            margin: 0 20px;
+            width: 300px;
+        }
+    }
+
+    &__action {
+
+    }
+}
+
+.login.active {
+    transform: translateY(0);
+    z-index: 10;
+}

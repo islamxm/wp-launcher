@@ -1,0 +1,33 @@
+.standartInput {
+    width: 100%;
+
+    &__el {
+        padding: 13px;
+        padding-bottom: 0;
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        font-size: 8.55792px;
+        line-height: 10px;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        background-color: unset;
+        @include def-anim;
+        font-size: 75.3149px;
+        line-height: 100%;
+
+        &::placeholder {
+            font-size: 8.55792px;
+            line-height: 10px;
+        }
+
+        &:focus {
+            border-color: var(--aqua);
+        }
+    }
+}

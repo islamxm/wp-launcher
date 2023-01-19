@@ -12,7 +12,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const homePage = document.querySelector('.home')
     const pricingPage = document.querySelector('.pricing')
     const locationPage = document.querySelector('.location')
+    const settings = document.querySelector('.settings');
+    const rep = document.querySelector('.rep')
 
+
+    const hidePreload = () => {
+        setInterval(() => {
+            preload.classList.remove('active')
+            homePage.classList.remove('hide-right');
+        }, 4000)
+    }
 
 
     //call pricing window
@@ -52,6 +61,37 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
+    const callSettings = () => {
+        const btn = document.querySelector('.homeCenter__settings');
+        btn.addEventListener('click', () => {
+            homePage.classList.add('hide-right')
+            settings.classList.add('active')
+        })
+    }
+
+    const hideSettings = () => {
+        const btn = document.querySelector('.settings__close');
+        btn.addEventListener('click', () => {
+            homePage.classList.remove('hide-right')
+            settings.classList.remove('active')
+        })
+    }
+
+    const callRep = () => {
+        const btn = document.querySelector('.home__item-balance_btn')
+        btn.addEventListener('click', () => {
+            homePage.classList.add('hide-right')
+            rep.classList.add('active');
+        })
+    }
+
+    const hideRep = () => {
+        const btn = document.querySelector('.rep__close');
+        btn.addEventListener('click', () => {
+            homePage.classList.remove('hide-right')
+            rep.classList.remove('active');
+        })
+    }
 
     
     callPricingWindow();
@@ -59,4 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
     callLocation();
     hideLocation();
+
+    callSettings();
+    hideSettings();
+
+
+    callRep();
+    hideRep();
+
+    hidePreload();
+
 })

@@ -1,4 +1,11 @@
 <div class="doubleBtn">
-    <button class="button doubleBtn__item doubleBtn__item-main @@mainModClass">@@mainText</button>
-    <button class="button doubleBtn__item doubleBtn__item-ex @@exModClass">@@exText</button>
+    <button class=" doubleBtn__item doubleBtn__item-main @@mainModClass">@@mainText</button>
+    <!-- <button class=" doubleBtn__item doubleBtn__item-ex @@exModClass">@@exText</button> -->
+    <div class="doubleBtn__item doubleBtn__item-ex">
+        @@include('./backBtn.html', {
+            "text": "@@exText",
+            "modClass": "@@exModClass"
+        })
+    </div>
+    
 </div>

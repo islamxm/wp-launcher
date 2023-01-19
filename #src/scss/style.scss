@@ -9,6 +9,12 @@
 @import './components/backBtn.scss';
 @import './components/doubleBtn.scss';
 @import './components/lightBtn.scss';
+@import './components/authHead.scss';
+@import './components/input.scss';
+@import './components/waveBtn.scss';
+@import './components/waveHead.scss';
+@import './components/standartInput.scss';
+@import './components/waveBtnRed.scss';
 
 //components(home)
 @import './pages/home/components/homeCenter.scss';
@@ -25,4 +31,13 @@
 @import './pages/pricing/pricing.scss';
 @import './pages/preload/preload.scss';
 @import './pages/location/location.scss';
+@import './pages/signup/signup.scss';
+@import './pages/login/login.scss';
+@import './pages/confirm/confirm.scss';
+@import './pages/rec/rec.scss';
+@import './pages/recEm/recEm.scss';
+@import './pages/rep/rep.scss';
+@import './pages/settings/settings.scss';
+@import './pages/reset/reset.scss';
+@import './pages/reset-done/reset-done.scss';
 
