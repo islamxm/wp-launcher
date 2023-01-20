@@ -107,6 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
     callRep();
     hideRep();
 
-    hidePreload();
+    // hidePreload();
 
 })

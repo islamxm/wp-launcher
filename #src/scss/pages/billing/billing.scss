@@ -1,0 +1,77 @@
+.billing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark_blue_bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .7s ease;
+    opacity: 0;
+    z-index: -1;
+    transform: scale(0);
+
+    &__circle {
+        // display: none;
+        position: absolute;
+
+    }
+
+    &__circle.billing__circle-big {
+        animation: circle 2s linear infinite reverse;
+        width: 760px;
+        height: 760px;
+        top: calc(50% - (760px / 2));
+        left: calc(50% - (760px / 2));
+        background-image: url('../img/billing-circle-big.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 99%;
+        
+    }
+    &__circle.billing__circle-small {
+        width: 508px;
+        height: 508px;
+        top: calc(50% - (508px / 2));
+        left: calc(50% - (508px / 2));
+        background-image: url('../img/billing-circle-small.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 99%;
+        animation: circle 2s linear infinite;
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    &__center {
+        position: relative;
+        z-index: 4;
+        
+
+    }
+    .billingCenter {
+        transition: all .7s ease;
+        transform: scale(0);
+    }
+}
+
+.billing.active {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10;
+
+    .billingCenter {
+        transform: scale(1);
+    }
+    
+}

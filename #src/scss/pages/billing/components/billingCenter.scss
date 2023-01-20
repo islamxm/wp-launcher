@@ -1,0 +1,174 @@
+.billingCenter {
+    position: absolute;
+    top: calc(50% - (175px / 2));
+    left: calc(50% - (238px / 2));
+    width: 238px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        filter: drop-shadow(0px 0px 100px #57D6FF);
+
+    }
+
+    &__dot {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 100%;
+
+        &:nth-child(1) {
+            top: 0;
+            left: 0;
+        }
+        &:nth-child(2) {
+            top: 0;
+            right: 0;
+        }
+        &:nth-child(3) {
+            bottom: 0;
+            left: 0;
+        }
+        &:nth-child(4) {
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    &__head {
+        position: absolute;
+        top: 0;
+        left: calc(50% - (305px / 2));
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        width: 305px;
+        color: #FFFFFF;
+        transform: translateY(-200%);
+    }
+
+
+    &__value {
+        font-weight: 700;
+        font-size: 11.768px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 155px;   
+        height: 155px;
+        border-radius: 100%;
+        // border: 0.5px solid #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../img/billing-center-value-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+
+        &_btn {
+            position: absolute;
+            bottom: 35px;
+            right: 0;
+            transform: translateX(100%);
+            font-size: 11px;
+            line-height: 15px;
+            cursor: pointer;
+
+            &:before {
+                position: absolute;
+                content: '+';
+                top: -20px;
+                left: calc(50% - 5px);
+                width: 10px;    
+                height: 10px;
+                font-size: 25px;
+                line-height: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            &:after {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 176px;
+                height: 3px;
+                background-image: url('../img/button/billing-value-btn.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                content: '';
+            }
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            top: 11px;
+            left: -5px;
+            height: 177px;
+            width: 50px;
+            background-image: url('../img/billing-center-value-side.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            // background-size: contain;
+        }
+
+        span {
+            display: block;
+            font-size: 60px;
+            line-height: 69px;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+    }
+
+    &__action {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(130%);
+
+        &_item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .billingCenter__end {
+            width: 150px;
+            padding-bottom: 14px;
+            font-weight: 700;
+            font-size: 8.55792px;
+            line-height: 10px;
+            text-transform: uppercase;
+            color: #fff;
+            position: relative;
+            background-image: url('../img/button/btn-billing-end.svg');
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: contain;
+            cursor: pointer;
+        }
+    }
+
+}

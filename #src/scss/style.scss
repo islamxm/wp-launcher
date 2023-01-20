@@ -25,6 +25,8 @@
 @import './pages/pricing/components/pricingItemStart.scss';
 //components(location)
 @import './pages/location/components/locationItem.scss';
+//components(billing)
+@import './pages/billing/components/billingCenter.scss';
 
 //PAGES
 @import './pages/home/home.scss';
@@ -40,4 +42,5 @@
 @import './pages/settings/settings.scss';
 @import './pages/reset/reset.scss';
 @import './pages/reset-done/reset-done.scss';
+@import './pages/billing/billing.scss';
 
