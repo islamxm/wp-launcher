@@ -1,0 +1,72 @@
+.pay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: -1;
+    transform: scale(0);
+    transition: all .7s ease;
+    background-color: var(--dark_blue_bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__circle {
+        position: absolute;
+    }
+
+    &__circle.pay__circle-big {
+        width: 732px;
+        height: 732px;
+        background-image: url('../img/pay-circle-big.svg');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 50% 100%;
+        top: calc(50% - (732px / 2));
+        left: calc(50% - (732px / 2));
+        animation: circle 2s linear infinite reverse; 
+    }
+
+    &__circle.pay__circle-small {
+        background-image: url('../img/billing-circle-mid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: calc(50% - (501px / 2));
+        left: calc(50% - (501px / 2));
+        width: 501px;
+        height: 501px;
+        animation: circle 2s linear infinite;
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    &__center {
+        position: absolute;
+        
+    }
+
+    .payCenter {
+        transition: all .7s ease;
+        transform: scale(0);    
+    }
+}
+
+.pay.active {
+    z-index: 10;
+    transform: scale(1);
+    opacity: 1;
+
+    .payCenter {
+        transform: scale(1);
+    }
+}

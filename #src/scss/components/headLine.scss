@@ -6,13 +6,19 @@
     width: 100%;
     z-index: 1000;
     background-color: #151B20;
+    display: none;
 
     &__in {
         display: flex;  
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
         padding: 0 18px;
         height: 100%;
+    }
+
+    &__main {
+        display: flex;
+        align-items: center;
     }
 
     &__logo {
@@ -60,4 +66,8 @@
             background-color: #FF6157;
         }
     }
+}
+
+.headLine.active {
+    display: block;
 }

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const locationPage = document.querySelector('.location')
     const settings = document.querySelector('.settings');
     const rep = document.querySelector('.rep')
-
+    const wait = document.querySelector('.wait');
 
     const hidePreload = () => {
         setInterval(() => {
@@ -93,6 +93,22 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
+    const callPlay = () => {
+        const btns = document.querySelectorAll('.homeCenter__start');
+        btns.forEach(i => {
+            i.addEventListener('click', () => {
+                wait.classList.add('active')
+            })
+        })
+    }
+
+    const closePlay = () => {
+        const btn = document.querySelector('.wait__action_btn');
+        btn.addEventListener('click', () => {
+            wait.classList.remove('active')
+        })
+    }
+
     
     callPricingWindow();
     hidePricingWindow();
@@ -106,6 +122,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     callRep();
     hideRep();
+
+    callPlay();
+    closePlay();
 
     // hidePreload();
 

@@ -27,6 +27,9 @@
 @import './pages/location/components/locationItem.scss';
 //components(billing)
 @import './pages/billing/components/billingCenter.scss';
+//components(pay)
+@import './pages/pay/components/payCenter.scss';
+
 
 //PAGES
 @import './pages/home/home.scss';
@@ -43,4 +46,6 @@
 @import './pages/reset/reset.scss';
 @import './pages/reset-done/reset-done.scss';
 @import './pages/billing/billing.scss';
+@import './pages/pay/pay.scss';
+@import './pages/wait/wait.scss';
 
