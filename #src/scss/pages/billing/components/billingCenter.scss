@@ -87,19 +87,21 @@
             font-size: 11px;
             line-height: 15px;
             cursor: pointer;
+            z-index: 3;
 
             &:before {
                 position: absolute;
                 content: '+';
                 top: -20px;
-                left: calc(50% - 5px);
+                left: 0;
                 width: 10px;    
-                height: 10px;
+                height: 100%;
                 font-size: 25px;
                 line-height: 25px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                width: 100%;
                 
             }
 

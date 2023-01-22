@@ -1,32 +1,47 @@
 <div class="home">
-    @@include('./components/homeCenter.html')
-    <button class="button home__item home__item-tr">
-        <span>Топовый</span>
-        <span>СМЕНИТЬ тариф</span>
-    </button>
-    <button class="button home__item home__item-loc">
-        <span>Локация: </span>
-        <span>KrasnodarDR1</span>
-    </button>
-    <button class="home__item home__item-info">
-        <h3 class="home__item-info_head">
-            Облачный ПК
-        </h3>
-        <ul>
-            <li class="home__item-info_li">Видеокарта - rtx 3060 TI</li>
-            <li class="home__item-info_li">Процессор -  intel xeon @3.6 ghz</li>
-            <li class="home__item-info_li">ram - 16 gb</li>
-            <li class="home__item-info_li">ssd - 256 gb</li>
-        </ul>
-    </button>
-    <div class="home__item home__item-balance">
-        <button class="home__item-balance_btn button">
-            пополнить
-        </button>
-        <div class="home__item-balance_value">
-            <span>Осталось</span>
-            <span>66<span class="home__item-balance_value_sf">м</span></span>
+    <div class="home__parallax ">
+        <div class="atropos test-parallax">
+            <div class="atropos-scale">
+                <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                        <div class="home__parallax_item home__parallax_item-bg" data-atropos-offset="-7"></div>
+                        <div class="home__parallax_item home__parallax_item-main" data-atropos-offset="0">
+                            <button class="button home__item home__item-tr">
+                                <span>Топовый</span>
+                                <span>СМЕНИТЬ тариф</span>
+                            </button>
+                            <button class="button home__item home__item-loc">
+                                <span>Локация: </span>
+                                <span>KrasnodarDR1</span>
+                            </button>
+                            <button class="home__item home__item-info">
+                                <h3 class="home__item-info_head">
+                                    Облачный ПК
+                                </h3>
+                                <ul>
+                                    <li class="home__item-info_li">Видеокарта - rtx 3060 TI</li>
+                                    <li class="home__item-info_li">Процессор -  intel xeon @3.6 ghz</li>
+                                    <li class="home__item-info_li">ram - 16 gb</li>
+                                    <li class="home__item-info_li">ssd - 256 gb</li>
+                                </ul>
+                            </button>
+                            <div class="home__item home__item-balance">
+                                <button class="home__item-balance_btn button">
+                                    пополнить
+                                </button>
+                                <div class="home__item-balance_value">
+                                    <span>Осталось</span>
+                                    <span>66<span class="home__item-balance_value_sf">м</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        @@include('./components/homeCenter.html')
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </div>
+                    
 
 </div>
