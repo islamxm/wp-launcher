@@ -1,5 +1,5 @@
 import * as flsFuncs from './modules/functions.js';
-import Atropos from 'atropos';
+// import Atropos from 'atropos';
 
 
 
@@ -14,5 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         rotateXMax: 2,
         rotateYMax: 2
     })
+
+    
 
 })  
