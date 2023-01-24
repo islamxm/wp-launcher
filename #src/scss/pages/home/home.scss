@@ -13,9 +13,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    // transform: scale(0);
-    // animation: homeEnterAmin 1s ease;
-    // transform: scale(1);
+    transform: scale(0);
+    animation: homeEnterAmin 1s ease;
+    transform: scale(1);
 
     &__parallax {
         position: absolute;

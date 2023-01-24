@@ -1152,6 +1152,9 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  transform: scale(0);
+  animation: homeEnterAmin 1s ease;
+  transform: scale(1);
 }
 .home__parallax {
   position: absolute;
