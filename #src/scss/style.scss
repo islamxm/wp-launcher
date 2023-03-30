@@ -23,6 +23,11 @@
 @import './pages/pricing/components/pricingItemHour.scss';
 @import './pages/pricing/components/pricingItemTop.scss';
 @import './pages/pricing/components/pricingItemStart.scss';
+//components(subs)
+@import './pages/subs/components/spricingItem.scss';
+@import './pages/subs/components/spricingItemHour.scss';
+@import './pages/subs/components/spricingItemTop.scss';
+@import './pages/subs/components/spricingItemStart.scss';
 //components(location)
 @import './pages/location/components/locationItem.scss';
 //components(billing)
@@ -48,4 +53,5 @@
 @import './pages/billing/billing.scss';
 @import './pages/pay/pay.scss';
 @import './pages/wait/wait.scss';
+@import './pages/subs/subs.scss';
 

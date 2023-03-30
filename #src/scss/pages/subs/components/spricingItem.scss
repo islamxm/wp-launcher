@@ -1,0 +1,98 @@
+.spricingItem {
+    width: 245px;
+    height: 369px;
+    @include def-anim;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+
+        .angle {
+            opacity: 1;
+        }
+
+        .tl {
+            transform: translateX(-50%) translateY(-50%);
+        }
+        .tr {
+            transform: translateX(50%) translateY(-50%);
+        }
+        .bl {
+            transform: translateX(-50%) translateY(50%);
+        }
+        .br {
+            transform: translateX(50%) translateY(50%);
+        }
+    }
+
+
+    .angle {
+        width: 7px;
+        height: 7px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: absolute;
+        @include def-anim;
+        opacity: 0;
+    }
+
+    .tl {
+        top: 0;
+        left: 0;
+        background-image: url('../../../../img/pricing-top-left-angle.svg');
+        
+    }
+
+    .tr {
+        top: 0;
+        right: 0;
+        background-image: url('../../../../img/header-top-right-angle.svg');
+    }
+
+    .bl {
+        bottom: 0;
+        left: 0;
+        background-image: url('../../../../img/header-bottom-left-angle.svg');
+    }
+
+    .br {
+        bottom: 0;
+        right: 0;
+        background-image: url('../../../../img/header-bottom-right-angle.svg');
+    }
+   
+
+    &__body {
+        flex: 1 0 auto;
+        padding: 30px 15px;
+        background-color: #16191C;
+
+        &_item {
+            text-transform: uppercase;
+            margin-bottom: 15px;
+
+            &:last-child  {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__action {
+        padding: 0 10px 25px;
+        background-color: #16191C;
+
+        &_btn {
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-image: url('../img/button/btn-default-border.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+        }
+    }
+}
