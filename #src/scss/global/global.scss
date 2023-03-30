@@ -89,3 +89,15 @@ body {
 .md-title.md-title-center {
     text-align: center;
 }
+
+.custom-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+        width: 3px;
+        background-color: #000;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--aqua);
+    }
+}

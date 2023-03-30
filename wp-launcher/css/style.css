@@ -85,6 +85,18 @@ body {
   text-align: center;
 }
 
+.custom-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 3px;
+  background-color: #000;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--aqua);
+}
+
 :root {
   --aqua: #57D6FF;
   --dark_blue_bg: #151C21;
@@ -3040,6 +3052,9 @@ body {
   display: block;
   font-size: 10px;
   line-height: 12px;
+}
+.config__body {
+  height: 190px;
 }
 .config__body_item {
   margin-bottom: 20px;
