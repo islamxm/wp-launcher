@@ -34,7 +34,8 @@
 @import './pages/billing/components/billingCenter.scss';
 //components(pay)
 @import './pages/pay/components/payCenter.scss';
-
+//components(config)
+@import './pages/config/components/configItem.scss';
 
 //PAGES
 @import './pages/home/home.scss';
@@ -54,4 +55,5 @@
 @import './pages/pay/pay.scss';
 @import './pages/wait/wait.scss';
 @import './pages/subs/subs.scss';
+@import './pages/config/config.scss';
 

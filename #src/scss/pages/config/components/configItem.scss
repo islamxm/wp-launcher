@@ -1,0 +1,58 @@
+.configItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 49px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    &__left {   
+        flex: 0 0 auto;
+        margin-right: 10px;
+        svg {
+            path {
+                @include def-anim;
+            }
+        }
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin-left: -15px;
+        margin-right: -15px;
+
+        &_main {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            @include def-anim;
+            margin: 0 15px;
+        }
+
+        &_sec {
+            @include def-anim;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            margin: 0 15px;
+        }
+    }
+
+    &__arrow {
+        width: 31px;height: 11px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('../../../../img/config-item-arrow.svg');
+        position: absolute;
+        top: calc(50% - 5.5px);
+        right: 25px;
+        @include def-anim;
+        opacity: 0;
+    }
+
+    
+}
