@@ -19,8 +19,9 @@
 
     &__in {
         padding: 30px;
-        width: calc(513px + 60px);
+        width: calc(513px + 60px + 40px);
         margin: 0 auto;
+        
     }
 
     &__head {
@@ -62,7 +63,8 @@
     }
 
     &__body {   
-        height: 190px;
+        height: 210px;
+        padding: 20px;
         
 
         &_item {
