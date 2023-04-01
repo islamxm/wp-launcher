@@ -45,4 +45,11 @@
             transform: translateX(50%);
         }
     }
+
+    &:disabled {
+        // opacity: 1;
+        &:after {
+            animation-play-state: running;
+        }
+    }
 }

@@ -565,6 +565,9 @@ body {
     transform: translateX(50%);
   }
 }
+.waveBtnRed:disabled:after {
+  animation-play-state: running;
+}
 
 .homeCenter {
   display: flex;
@@ -634,13 +637,76 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
   z-index: 2;
+  background-color: #fff;
+}
+.homeCenter__play svg path {
+  stroke: #000;
 }
 .homeCenter__play:hover {
   filter: drop-shadow(0 0 7px #fff);
-  background-color: #fff;
 }
-.homeCenter__play:hover svg path {
-  stroke: #000;
+.homeCenter__play:hover .ripple-1 {
+  animation: rippleEffect1 1s ease infinite;
+}
+.homeCenter__play:hover .ripple-2 {
+  animation: rippleEffect2 1s ease infinite;
+}
+.homeCenter__play .ripple-1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  border: 0px solid #fff;
+  border-radius: 100%;
+}
+.homeCenter__play .ripple-2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+  border: 0px solid #fff;
+  border-radius: 100%;
+}
+@keyframes rippleEffect1 {
+  0% {
+    transform: scale(1);
+    border-width: 0px;
+  }
+  50% {
+    transform: scale(1.2);
+    border-width: 4px;
+  }
+  80% {
+    transform: scale(1.2);
+    border-width: 2px;
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    border-width: 2px;
+    opacity: 0;
+  }
+}
+@keyframes rippleEffect2 {
+  0% {
+    transform: scale(1);
+    border-width: 0px;
+  }
+  50% {
+    transform: scale(1.4);
+    border-width: 4px;
+  }
+  80% {
+    transform: scale(1.2);
+    border-width: 2px;
+  }
+  100% {
+    transform: scale(1.2);
+    border-width: 2px;
+    opacity: 0;
+  }
 }
 .homeCenter__play svg path {
   transition: all 0.3s ease;
@@ -1247,6 +1313,12 @@ body {
   background-size: contain;
   position: relative;
 }
+.billingCenter__value_settings {
+  position: absolute;
+  bottom: 28px;
+  right: unset;
+  left: -85px;
+}
 .billingCenter__value_btn {
   position: absolute;
   bottom: 35px;
@@ -1275,7 +1347,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 176px;
+  width: 227px;
   height: 3px;
   background-image: url("../img/button/billing-value-btn.svg");
   background-repeat: no-repeat;
@@ -2247,6 +2319,21 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.settings__body_col_item_dis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(47, 47, 47, 0.9);
+  color: #fff;
+  text-transform: uppercase;
+}
 .settings__body_col_item:nth-child(1) {
   border-top: 0.2px solid #5E5E5E;
 }
@@ -2259,6 +2346,7 @@ body {
 .settings__body_col_item_body {
   height: 24px;
   display: flex;
+  position: relative;
 }
 .settings__body_col_item_body_el.active {
   background-color: var(--aqua);
@@ -2290,18 +2378,26 @@ body {
 .settings__body_col_item.fps .settings__body_col_item_body_el {
   padding: 0 10px;
 }
-.settings__body_col_item.dis {
+.settings__body_col_item.disabled {
   align-items: unset;
 }
-.settings__body_col_item.dis .settings__body_col_item_label {
+.settings__body_col_item.disabled .settings__body_col_item_dis {
+  display: flex;
+  z-index: 10;
+}
+.settings__body_col_item.disabled .settings__body_col_item_label {
   display: flex;
   align-items: center;
   color: #5F5F5F;
 }
-.settings__body_col_item.dis .settings__body_col_item_body {
+.settings__body_col_item.disabled .settings__body_col_item_body {
   height: 100%;
+  width: 260px;
+  flex: 0 0 auto;
+  overflow: hidden;
 }
-.settings__body_col_item.dis .settings__body_col_item_body_el {
+.settings__body_col_item.disabled .settings__body_col_item_body_el {
+  opacity: 0;
   background-color: rgba(47, 47, 47, 0.9);
 }
 .settings__action {

@@ -79,6 +79,14 @@
         background-size: contain;
         position: relative;
 
+        &_settings {
+            position: absolute;
+            bottom: 28px;
+            right: unset;
+            
+            left: -85px;
+        }
+
         &_btn {
             position: absolute;
             bottom: 35px;
@@ -109,7 +117,7 @@
                 position: absolute;
                 top: 0;
                 right: 0;
-                width: 176px;
+                width: 227px;
                 height: 3px;
                 background-image: url('../img/button/billing-value-btn.svg');
                 background-repeat: no-repeat;

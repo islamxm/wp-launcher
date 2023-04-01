@@ -80,16 +80,100 @@
         border: 1px solid rgba(#FFFFFF, .2);
         position: relative;
         z-index: 2;
-
-        &:hover {
-            filter: drop-shadow(0 0 7px #fff);
-            background-color: #fff;
-            svg {
-                path {
-                    stroke: #000;
-                }
+        
+        background-color: #fff;
+        
+        svg {
+            path {
+                stroke: #000;
             }
         }
+        // &:hover {
+        //     filter: drop-shadow(0 0 7px #fff);
+        //     background-color: #fff;
+        //     svg {
+        //         path {
+        //             stroke: #000;
+        //         }
+        //     }
+        // }
+        &:hover {
+            filter: drop-shadow(0 0 7px #fff);
+            .ripple-1 {
+                animation: rippleEffect1 1s ease infinite;
+                // animation-play-state: running;
+            }
+            .ripple-2 {
+                animation: rippleEffect2 1s ease infinite;
+            }
+        }
+
+        .ripple-1 {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: calc(50% - (70px / 2));
+            left: calc(50% - (70px / 2));
+            border: 0px solid #fff;
+            // animation: rippleEffect1 1s ease infinite;
+            border-radius: 100%;
+            // animation-play-state: paused;
+        }
+
+        .ripple-2 {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: calc(50% - (70px / 2));
+            left: calc(50% - (70px / 2));
+            border: 0px solid #fff;
+            // animation: rippleEffect2 1s ease infinite;
+            // animation-play-state: paused;
+            border-radius: 100%;
+        }
+
+
+        @keyframes rippleEffect1 {
+            0% {
+                transform: scale(1);
+                border-width: 0px;
+            }
+            50% {
+                transform: scale(1.2);
+                border-width: 4px;
+            }
+            80% {
+                transform: scale(1.2);
+                border-width: 2px;
+            }
+            100% {
+                border-color: rgba(#fff, .5);
+                transform: scale(1.2);
+                border-width: 2px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes rippleEffect2 {
+            0% {
+                transform: scale(1);
+                border-width: 0px;
+            }
+            50% {
+                transform: scale(1.4);
+                border-width: 4px;
+            }
+            80% {
+                transform: scale(1.2);
+                border-width: 2px;
+            }
+            100% {
+                transform: scale(1.2);
+                border-width: 2px;
+                opacity: 0;
+            }
+        }
+
 
         svg {
             path {
