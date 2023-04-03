@@ -109,7 +109,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1000000000;
   background-color: #151B20;
   display: none;
 }
