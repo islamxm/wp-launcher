@@ -228,10 +228,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 400px;
+        
 
         &_item {
-
+            margin: 0 20px;
         }
     }
 }
