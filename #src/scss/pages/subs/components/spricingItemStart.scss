@@ -20,7 +20,7 @@
 
     &__head {
         min-height: 96px;
-        background-image: url('../../../../img/pricing-start-head-bg.svg');
+        background-image: url('/assets/pricing-start-head-bg.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -43,7 +43,7 @@
         }
 
         &_tm {
-            background-image: url('../../../../img/pricing-head-top-tm-bg.svg');
+            background-image: url('/assets/pricing-head-top-tm-bg.svg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;

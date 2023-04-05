@@ -191,7 +191,7 @@ body {
   justify-content: flex-end;
   text-transform: uppercase;
   color: #fff;
-  background-image: url("../img/button/btn-back-bg.svg");
+  background-image: url("/assets/button/btn-back-bg.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -207,7 +207,7 @@ body {
   content: "";
   width: 18px;
   height: 14px;
-  background-image: url("../img/button/btn-arrow-white.svg");
+  background-image: url("/assets/btn-arrow-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -222,7 +222,7 @@ body {
   width: 18px;
   height: 14px;
   content: "";
-  background-image: url("../img/button/btn-arrow-tr.svg");
+  background-image: url("/assets/btn-arrow-tr.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -237,7 +237,7 @@ body {
   cursor: pointer;
 }
 .doubleBtn__item.doubleBtn__item-main {
-  background-image: url("../img/button/btn-double-bg.svg");
+  background-image: url("/assets/button/btn-double-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -261,7 +261,7 @@ body {
   width: 15px;
   height: 15px;
   content: "";
-  background-image: url("../img/button/btn-location-double-icon.svg");
+  background-image: url("/assets/btn-location-double-icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -313,7 +313,7 @@ body {
   content: "";
   width: 44px;
   height: 24px;
-  background-image: url("../img/auth-head-line.svg");
+  background-image: url("/assets/auth-head-line.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -342,7 +342,7 @@ body {
 .input__label {
   width: 135px;
   height: 25px;
-  background-image: url("../img/input-label-bg.svg");
+  background-image: url("/assets/input-label-bg.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
@@ -392,7 +392,7 @@ body {
   width: 200%;
   height: 100%;
   content: "";
-  background-image: url("../img/button/btn-wave-min-bg.svg");
+  background-image: url("/assets/btn-wave-min-bg.svg");
   background-repeat: repeat-x;
   background-position: center;
   background-size: contain;
@@ -420,7 +420,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../img/button/btn-confirm-border.svg");
+  background-image: url("/assets/btn-confirm-border.svg");
 }
 .waveHead:before {
   position: absolute;
@@ -429,7 +429,7 @@ body {
   width: 10px;
   height: 10px;
   content: "";
-  background-image: url("../img/confirm-icon.svg");
+  background-image: url("/assets/confirm-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -449,7 +449,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/button/btn-wave-big-bg.svg");
+  background-image: url("/assets/btn-wave-big-bg.svg");
   background-repeat: repeat-x;
   background-position: center;
   background-size: contain;
@@ -543,7 +543,7 @@ body {
   width: 200%;
   height: 100%;
   content: "";
-  background-image: url("../img/button/btn-wave-red.svg");
+  background-image: url("/assets/btn-wave-red.svg");
   background-repeat: repeat-x;
   background-position: center;
   background-size: contain;
@@ -591,7 +591,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/icons/play-gray-line.svg");
+  background-image: url("/assets/play-gray-line.svg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: 290px;
@@ -613,7 +613,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/icons/play-blue-line.svg");
+  background-image: url("/assets/play-blue-line.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -737,7 +737,7 @@ body {
   font-weight: 700;
   font-size: 8px;
   line-height: 9px;
-  background-image: url("../img/button/btn-main-settings.svg");
+  background-image: url("/assets/btn-main-settings.svg");
   background-size: cover;
   z-index: 2;
 }
@@ -763,7 +763,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("../img/button/btn-default-border.svg");
+  background-image: url("/assets/btn-default-border.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -772,7 +772,7 @@ body {
 .pricingItemHour {
   width: 100%;
   height: 100%;
-  background-image: url("../img/pricing-hour-border.svg");
+  background-image: url("/assets/pricing-hour-border.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -785,7 +785,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/pricing-standard-bg.svg");
+  background-image: url("/assets/pricing-standard-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -821,7 +821,7 @@ body {
 .pricingItemTop {
   width: 100%;
   height: 100%;
-  background-image: url("../img/pricing-top-border.svg");
+  background-image: url("/assets/pricing-top-border.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -834,7 +834,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/pricing-top-bg.svg");
+  background-image: url("/assets/pricing-top-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -872,13 +872,13 @@ body {
 }
 .pricingItemTop__action_btn {
   color: var(--aqua);
-  background-image: url("../img/button/btn-default-border-aqua.svg");
+  background-image: url("/assets/button/btn-default-border-aqua.svg");
 }
 
 .pricingItemStart {
   width: 100%;
   height: 100%;
-  background-image: url("../img/pricing-start-border.svg");
+  background-image: url("/assets/pricing-start-border.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -891,7 +891,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/pricing-standard-bg.svg");
+  background-image: url("/assets/pricing-standard-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -959,22 +959,22 @@ body {
 .spricingItem .tl {
   top: 0;
   left: 0;
-  background-image: url("../../../../img/pricing-top-left-angle.svg");
+  background-image: url("/assets/pricing-top-left-angle.svg");
 }
 .spricingItem .tr {
   top: 0;
   right: 0;
-  background-image: url("../../../../img/header-top-right-angle.svg");
+  background-image: url("/assets/header-top-right-angle.svg");
 }
 .spricingItem .bl {
   bottom: 0;
   left: 0;
-  background-image: url("../../../../img/header-bottom-left-angle.svg");
+  background-image: url("/assets/header-bottom-left-angle.svg");
 }
 .spricingItem .br {
   bottom: 0;
   right: 0;
-  background-image: url("../../../../img/header-bottom-right-angle.svg");
+  background-image: url("/assets/header-bottom-right-angle.svg");
 }
 .spricingItem__body {
   flex: 1 0 auto;
@@ -998,7 +998,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("../img/button/btn-default-border.svg");
+  background-image: url("/assets/btn-default-border.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1022,7 +1022,7 @@ body {
 }
 .spricingItemHour__head {
   min-height: 96px;
-  background-image: url("../../../../img/pricing-hour-top-bg.svg");
+  background-image: url("/assets/pricing-hour-top-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1060,7 +1060,7 @@ body {
 }
 .spricingItemHour__action_btn {
   color: var(--aqua);
-  background-image: url("../img/button/btn-default-border-aqua.svg");
+  background-image: url("/assets/btn-default-border-aqua.svg");
 }
 
 .spricingItemTop {
@@ -1081,7 +1081,7 @@ body {
 }
 .spricingItemTop__head {
   min-height: 96px;
-  background-image: url("../../../../img/pricing-top-head-bg.svg");
+  background-image: url("/assets/pricing-top-head-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1101,7 +1101,7 @@ body {
   text-transform: uppercase;
 }
 .spricingItemTop__head_tm {
-  background-image: url("../../../../img/pricing-top-head-tm-bg.svg");
+  background-image: url("/assets/pricing-top-head-tm-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1143,7 +1143,7 @@ body {
 }
 .spricingItemStart__head {
   min-height: 96px;
-  background-image: url("../../../../img/pricing-start-head-bg.svg");
+  background-image: url("/assets/pricing-start-head-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1163,7 +1163,7 @@ body {
   text-transform: uppercase;
 }
 .spricingItemStart__head_tm {
-  background-image: url("../../../../img/pricing-head-top-tm-bg.svg");
+  background-image: url("/assets/pricing-head-top-tm-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1233,7 +1233,7 @@ body {
 }
 
 .locationItem.active {
-  background-image: url("../img/button/btn-location.svg");
+  background-image: url("/assets/btn-location.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1307,7 +1307,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../img/billing-center-value-bg.svg");
+  background-image: url("/assets/billing-center-value-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1349,7 +1349,7 @@ body {
   right: 0;
   width: 227px;
   height: 3px;
-  background-image: url("../img/button/billing-value-btn.svg");
+  background-image: url("/assets/billing-value-btn.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1362,7 +1362,7 @@ body {
   left: -5px;
   height: 177px;
   width: 50px;
-  background-image: url("../img/billing-center-value-side.svg");
+  background-image: url("/assets/billing-center-value-side.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1396,7 +1396,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   position: relative;
-  background-image: url("../img/button/btn-billing-end.svg");
+  background-image: url("/assets/btn-billing-end.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
@@ -1406,7 +1406,7 @@ body {
 .payCenter {
   width: 269px;
   height: 269px;
-  background-image: url("../img/pay-center-bg.svg");
+  background-image: url("/assets/pay-center-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1528,7 +1528,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../../../../img/config-item-arrow.svg");
+  background-image: url("/assets/config-item-arrow.svg");
   position: absolute;
   top: calc(50% - 5.5px);
   right: 25px;
@@ -1568,7 +1568,7 @@ body {
   height: 100%;
 }
 .home__parallax_item.home__parallax_item-bg {
-  background-image: url("../../img/main-bg.svg");
+  background-image: url("/assets/main-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1594,7 +1594,7 @@ body {
 }
 .home__item.home__item-tr {
   padding: 10px 50px 10px 10px;
-  background-image: url("../img/button/btn-main-tr.svg");
+  background-image: url("/assets/btn-main-tr.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1618,7 +1618,7 @@ body {
   left: 50px;
 }
 .home__item.home__item-balance .home__item-balance_btn {
-  background-image: url("../img/button/btn-main-balance.svg");
+  background-image: url("/assets/btn-main-balance.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1660,7 +1660,7 @@ body {
   padding: 10px 50px 10px 10px;
   width: 145px;
   color: var(--aqua);
-  background-image: url("../img/button/btn-main-loc.svg");
+  background-image: url("/assets/btn-main-loc.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1680,7 +1680,7 @@ body {
 }
 .home__item.home__item-info {
   color: var(--aqua);
-  background-image: url("../img/button/btn-home-info.svg");
+  background-image: url("/assets/btn-home-info.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1716,7 +1716,7 @@ body {
   transform: translateY(-100%);
   transition: all 0.7s ease;
   z-index: 10;
-  background-image: url("../img/pricing-bg.svg");
+  background-image: url("/assets/pricing-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1786,7 +1786,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../img/preload-item.svg");
+  background-image: url("/assets/preload-item.svg");
   position: absolute;
   top: 0;
   left: 0;
@@ -1905,7 +1905,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/location-bg.svg");
+  background-image: url("/assets/location-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2038,7 +2038,7 @@ body {
 }
 .confirm__window {
   width: 507px;
-  background-image: url("../img/confirm-window-bg.svg");
+  background-image: url("/assets/confirm-window-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2065,7 +2065,7 @@ body {
   margin-bottom: 0;
 }
 .confirm__window_action_btn {
-  background-image: url("../img/button/btn-confirm-bg.svg");
+  background-image: url("/assets/btn-confirm-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2175,7 +2175,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/rep-bg.svg");
+  background-image: url("/assets/rep-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2222,7 +2222,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../../../img/pricing-bg.svg");
+  background-image: url("/assets/pricing-bg.svg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2432,7 +2432,7 @@ body {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: url("../img/rep-bg.svg");
+  background-image: url("/assets/rep-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2513,7 +2513,7 @@ body {
   height: 760px;
   top: calc(50% - 380px);
   left: calc(50% - 380px);
-  background-image: url("../img/billing-circle-big.svg");
+  background-image: url("/assets/billing-circle-big.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 99%;
@@ -2523,7 +2523,7 @@ body {
   height: 508px;
   top: calc(50% - 254px);
   left: calc(50% - 254px);
-  background-image: url("../img/billing-circle-small.svg");
+  background-image: url("/assets/billing-circle-small.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 99%;
@@ -2576,7 +2576,7 @@ body {
 .pay__circle.pay__circle-big {
   width: 732px;
   height: 732px;
-  background-image: url("../img/pay-circle-big.svg");
+  background-image: url("/assets/pay-circle-big.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 50% 100%;
@@ -2585,7 +2585,7 @@ body {
   animation: circle 2s linear infinite reverse;
 }
 .pay__circle.pay__circle-small {
-  background-image: url("../img/billing-circle-mid.svg");
+  background-image: url("/assets/billing-circle-mid.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2876,7 +2876,7 @@ body {
   position: relative;
 }
 .wait__action_btn {
-  background-image: url("../img/button/wait-btn-bg.svg");
+  background-image: url("/assets/wait-btn-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -3016,7 +3016,7 @@ body {
   transform: translateY(-100%);
   transition: all 0.7s ease;
   z-index: 10;
-  background-image: url("../img/pricing-bg.svg");
+  background-image: url("/assets/pricing-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -3048,7 +3048,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../../../img/pricing-back.svg");
+  background-image: url("/assets/pricing-back.svg");
   height: 10px;
   width: 20px;
 }
@@ -3082,7 +3082,7 @@ body {
   background-size: contain;
   content: "";
   transition: all 0.3s ease;
-  background-image: url("../../../img/subs-arrow.svg");
+  background-image: url("/assets/subs-arrow.svg");
   bottom: 8px;
   right: 0;
   position: absolute;
@@ -3150,7 +3150,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--dark_blue_bg);
-  background-image: url("../img/pricing-bg.svg");
+  background-image: url("/assets/pricing-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -3179,7 +3179,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("../../../img/config-head-ex-bg.svg");
+  background-image: url("/assets/config-head-ex-bg.svg");
   color: #1F1F1F;
   font-size: 16px;
   line-height: 19px;
@@ -3225,22 +3225,22 @@ body {
 .config__body_item .tl {
   top: 0;
   left: 0;
-  background-image: url("../../../../img/pricing-top-left-angle.svg");
+  background-image: url("/assets/pricing-top-left-angle.svg");
 }
 .config__body_item .tr {
   top: 0;
   right: 0;
-  background-image: url("../../../../img/header-top-right-angle.svg");
+  background-image: url("/assets/header-top-right-angle.svg");
 }
 .config__body_item .bl {
   bottom: 0;
   left: 0;
-  background-image: url("../../../../img/header-bottom-left-angle.svg");
+  background-image: url("/assets/header-bottom-left-angle.svg");
 }
 .config__body_item .br {
   bottom: 0;
   right: 0;
-  background-image: url("../../../../img/header-bottom-right-angle.svg");
+  background-image: url("/assets/header-bottom-right-angle.svg");
 }
 .config__body_item:after {
   position: absolute;
@@ -3256,22 +3256,22 @@ body {
   left: 0;
 }
 .config__body_item:nth-child(1n) {
-  background-image: url("../../../img/config-item-bg-1.svg");
+  background-image: url("/assets/config-item-bg-1.svg");
 }
 .config__body_item:nth-child(1n):after {
-  background-image: url("../../../img/config-item-bg-1-fill.svg");
+  background-image: url("/assets/config-item-bg-1-fill.svg");
 }
 .config__body_item:nth-child(2n) {
-  background-image: url("../../../img/config-item-bg-2.svg");
+  background-image: url("/assets/config-item-bg-2.svg");
 }
 .config__body_item:nth-child(2n):after {
-  background-image: url("../../../img/config-item-bg-2-fill.svg");
+  background-image: url("/assets/config-item-bg-2-fill.svg");
 }
 .config__body_item:nth-child(3n) {
-  background-image: url("../../../img/config-item-bg-3.svg");
+  background-image: url("/assets/config-item-bg-3.svg");
 }
 .config__body_item:nth-child(3n):after {
-  background-image: url("../../../img/config-item-bg-3-fill.svg");
+  background-image: url("/assets/config-item-bg-3-fill.svg");
 }
 .config__body_item:hover {
   color: #181818;

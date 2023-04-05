@@ -24,7 +24,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('../img/icons/play-gray-line.svg');
+            background-image: url('/assets/play-gray-line.svg');
             background-repeat: no-repeat;
             background-position: center left;
             background-size: 290px;
@@ -52,7 +52,7 @@
                 width: 100%;
                 height: 100%;
                 content: '';
-                background-image: url('../img/icons/play-blue-line.svg');
+                background-image: url('/assets/play-blue-line.svg');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -209,7 +209,7 @@
         font-weight: 700;
         font-size: 8px;
         line-height: 9px;
-        background-image: url('../img/button/btn-main-settings.svg');
+        background-image: url('/assets/btn-main-settings.svg');
         background-size: cover;
         z-index: 2;
     }

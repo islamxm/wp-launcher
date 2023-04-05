@@ -7,7 +7,7 @@ const srcFolder = `./#src`;
 export const path = {
     build: {
         js: `${buildFolder}/js/`,
-        img: `${buildFolder}/img/`,
+        img: `${buildFolder}/assets/`,
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
         fonts: `${buildFolder}/fonts/`,
@@ -15,8 +15,8 @@ export const path = {
     },
     src: {
         js: `${srcFolder}/js/app.js`,
-        img: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
-        svg: `${srcFolder}/img/**/*.svg`,
+        img: `${srcFolder}/assets/**/*.{jpg,jpeg,png,gif,webp}`,
+        svg: `${srcFolder}/assets/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
         html: `${srcFolder}/*.html`,    
         files: `${srcFolder}/files/**/*.*`,
@@ -24,7 +24,7 @@ export const path = {
     },
     watch: {
         js: `${srcFolder}/js/**/*.js`,
-        img: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
+        img: `${srcFolder}/assets/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`, 
         files: `${srcFolder}/files/**/*.*`,

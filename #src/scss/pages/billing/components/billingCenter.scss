@@ -73,7 +73,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('../img/billing-center-value-bg.svg');
+        background-image: url('/assets/billing-center-value-bg.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -119,7 +119,7 @@
                 right: 0;
                 width: 227px;
                 height: 3px;
-                background-image: url('../img/button/billing-value-btn.svg');
+                background-image: url('/assets/billing-value-btn.svg');
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
@@ -134,7 +134,7 @@
             left: -5px;
             height: 177px;
             width: 50px;
-            background-image: url('../img/billing-center-value-side.svg');
+            background-image: url('/assets/billing-center-value-side.svg');
             background-repeat: no-repeat;
             background-position: center;
             // background-size: contain;
@@ -173,7 +173,7 @@
             text-transform: uppercase;
             color: #fff;
             position: relative;
-            background-image: url('../img/button/btn-billing-end.svg');
+            background-image: url('/assets/btn-billing-end.svg');
             background-repeat: no-repeat;
             background-position: center bottom;
             background-size: contain;
