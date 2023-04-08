@@ -191,7 +191,7 @@ body {
   justify-content: flex-end;
   text-transform: uppercase;
   color: #fff;
-  background-image: url("/assets/button/btn-back-bg.svg");
+  background-image: url("/assets/img/button/btn-back-bg.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -1346,9 +1346,9 @@ body {
 .billingCenter__value_btn:after {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 227px;
-  height: 3px;
+  right: -22px;
+  width: 279px;
+  height: 4px;
   background-image: url("/assets/img/billing-value-btn.svg");
   background-repeat: no-repeat;
   background-position: center;
