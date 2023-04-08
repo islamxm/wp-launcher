@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: url('/assets/pricing-bg.svg');
+    background-image: url('/assets/img/pricing-bg.svg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,22 +63,22 @@
                 .tl {
                     top: 0;
                     left: 0;
-                    background-image: url('../../../img/pricing-top-left-angle.svg');
+                    background-image: url('/assets/img/pricing-top-left-angle.svg');
                 }
                 .tr {
                     top: 0;
                     right: 0;
-                    background-image: url('../../../img/header-top-right-angle.svg');
+                    background-image: url('/assets/img/header-top-right-angle.svg');
                 }
                 .bl {
                     bottom: 0;
                     left: 0;
-                    background-image: url('../../../img/header-bottom-left-angle.svg');
+                    background-image: url('/assets/img/header-bottom-left-angle.svg');
                 }
                 .br {
                     bottom: 0;
                     right: 0;
-                    background-image: url('../../../img/header-bottom-right-angle.svg');
+                    background-image: url('/assets/img/header-bottom-right-angle.svg');
                 }
 
                 &_label {

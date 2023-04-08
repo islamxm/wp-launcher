@@ -36,7 +36,7 @@
         }
 
         &_item.home__parallax_item-bg {
-            background-image: url('/assets/main-bg.svg');
+            background-image: url('/assets/img/main-bg.svg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
@@ -68,7 +68,7 @@
 
     &__item.home__item-tr {
         padding: 10px 50px 10px 10px;
-        background-image: url('/assets/btn-main-tr.svg');
+        background-image: url('/assets/img/btn-main-tr.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -94,7 +94,7 @@
         left: 50px;
 
         .home__item-balance_btn {
-            background-image: url('/assets/btn-main-balance.svg');
+            background-image: url('/assets/img/btn-main-balance.svg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -142,7 +142,7 @@
         padding: 10px 50px 10px 10px;
         width: 145px;
         color: var(--aqua);
-        background-image: url('/assets/btn-main-loc.svg');
+        background-image: url('/assets/img/btn-main-loc.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -164,7 +164,7 @@
 
     &__item.home__item-info {
         color: var(--aqua);
-        background-image: url('/assets/btn-home-info.svg');
+        background-image: url('/assets/img/btn-home-info.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;

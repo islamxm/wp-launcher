@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: url('/assets/btn-confirm-border.svg');
+    background-image: url('/assets/img/btn-confirm-border.svg');
     // overflow: hidden;
     &:before {
         position: absolute;
@@ -17,7 +17,7 @@
         width: 10px;
         height: 10px;
         content: '';
-        background-image: url('/assets/confirm-icon.svg');
+        background-image: url('/assets/img/confirm-icon.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -47,7 +47,7 @@
             width: 100%;
             height: 100%;
             content: '';
-            background-image: url('/assets/btn-wave-big-bg.svg');
+            background-image: url('/assets/img/btn-wave-big-bg.svg');
             // animation: btn-linear 1.5s linear infinite;
             // animation-play-state: paused;
             background-repeat: repeat-x;
